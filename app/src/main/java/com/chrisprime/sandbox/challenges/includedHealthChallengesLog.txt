@@ -1,0 +1,42 @@
+2023-10-05 11:58:51.509  1608-1608  sandboxlog              com.chrisprime.sandbox               D  docsAvailAt12 = [Belda]
+2023-10-05 11:58:51.511  1608-1608  sandboxlog              com.chrisprime.sandbox               D  docsWithMostAvailHours = [Aaron]
+2023-10-05 11:58:51.513  1608-1608  sandboxlog              com.chrisprime.sandbox               D  docsAvailsByHour = {1=[Adrien, Andy], 2=[Andy], 3=[Adrien, Andy], 4=[Aaron, Andy], 5=[Aaron, Adrien, Andy], 6=[Aaron], 7=[Aaron], 8=[Matt, Aaron], 9=[Belda, Wyatt, Emma, Aaron], 10=[Matt, Belda, Wyatt, Emma, Aaron], 11=[Matt, Belda, Wyatt, Emma, Josh], 12=[Belda], 13=[Matt, Belda], 14=[Belda], 15=[Belda, Wyatt, Aaron], 16=[Belda, Wyatt, Aaron], 17=[Wyatt, Aaron], 18=[Aaron], 19=[Aaron], 20=[Aaron], 21=[Aaron], 22=[Aaron], 23=[Aaron], 24=[]}
+2023-10-05 11:58:51.513  1608-1608  sandboxlog              com.chrisprime.sandbox               D  closestDoctorsToGivenLocation(5, 5) - closest distance is 4.47213595499958, filtering doctors...
+2023-10-05 11:58:51.513  1608-1608  sandboxlog              com.chrisprime.sandbox               D  closestDoctorsToLoc5_5 = [Belda]
+2023-10-05 11:58:51.513  1608-1608  sandboxlog              com.chrisprime.sandbox               D  closestDoctorsToGivenLocation(99, 20) - closest distance is 20.024984394500787, filtering doctors...
+2023-10-05 11:58:51.513  1608-1608  sandboxlog              com.chrisprime.sandbox               D  closestDoctorsToLoc99_20 = [Emma]
+2023-10-05 11:58:51.514  1608-1608  sandboxlog              com.chrisprime.sandbox               D  doctorsServicingLocation(5, 5) with doctorLocationsAndServiceAreas {Matt=[I@afebc5c, Belda=[I@7026b65, Wyatt=[I@ddeb03a, Emma=[I@85ee4eb, Aaron=[I@2e94248, Josh=[I@b3358e1, Adrien=[I@8f79606, Andy=[I@fc4e4c7}
+2023-10-05 11:58:51.514  1608-1608  sandboxlog              com.chrisprime.sandbox               D  doctorsServicing5_5 = [Belda]
+2023-10-05 11:58:51.515  1608-1608  sandboxlog              com.chrisprime.sandbox               D  doctorsServicingLocation(50, 50) with doctorLocationsAndServiceAreas {Matt=[I@afebc5c, Belda=[I@7026b65, Wyatt=[I@ddeb03a, Emma=[I@85ee4eb, Aaron=[I@2e94248, Josh=[I@b3358e1, Adrien=[I@8f79606, Andy=[I@fc4e4c7}
+2023-10-05 11:58:51.515  1608-1608  sandboxlog              com.chrisprime.sandbox               D  doctorsServicing50_50 = [Aaron, Adrien]
+2023-10-05 11:58:51.525  1608-1608  sandboxlog              com.chrisprime.sandbox               D  findAndAddToExistingSimilarDoctorGroup(): adding otherDoctor 10 to group [7, 8]
+2023-10-05 11:58:51.532  1608-1608  sandboxlog              com.chrisprime.sandbox               D  similarDoctorsGrouped = [[1, 2], [3], [4, 5], [6], [7, 8, 10], [9], [11]]
+2023-10-05 11:58:51.533  1608-1608  sandboxlog              com.chrisprime.sandbox               D  nextGreatest([16, 17, 4, 3, 5, 2], count 6) is ==> [17, 5, 5, 5, 2, -1]
+2023-10-05 11:58:51.534  1608-1608  sandboxlog              com.chrisprime.sandbox               D  nextGreatest([2, 3, 1, 9], count 4) is ==> [9, 9, 9, -1]
+2023-10-05 11:58:51.534  1608-1608  sandboxlog              com.chrisprime.sandbox               D  testRover1.controlRover("LMLMLMLMM") status: Rover(gridSizeX=5, gridSizeY=5, posX=1, posY=3, direction=NORTH, gridEdgesStopRover=true)
+2023-10-05 11:58:51.538  1608-1608  sandboxlog              com.chrisprime.sandbox               D  testRover2.controlRover("MMRMMRMRRM") status: Rover(gridSizeX=5, gridSizeY=5, posX=5, posY=1, direction=EAST, gridEdgesStopRover=true)
+2023-10-05 11:58:51.539  1608-1608  sandboxlog              com.chrisprime.sandbox               D  combinedLineSegmentsTest1: combineLineSegments([[16, 18], [6, 8], [2, 10], [20, 26], [5, 14], [25, 30], [21, 24], ]) = [[2, 14], [16, 18], [20, 30], ]
+2023-10-05 11:58:51.539  1608-1608  sandboxlog              com.chrisprime.sandbox               D  boggledBoardTest1: boggle([[a, b, c], [d, e, f], [g, h, i], ], [bad, bed, dab, head, dad, had]) = [bad, bed, dab, head, dad, had]
+2023-10-05 13:02:50.551  2009-2009  sandboxlog              com.chrisprime.sandbox               D  docsAvailAt12 = [Belda]
+2023-10-05 13:02:50.553  2009-2009  sandboxlog              com.chrisprime.sandbox               D  docsWithMostAvailHours = [Aaron]
+2023-10-05 13:02:50.555  2009-2009  sandboxlog              com.chrisprime.sandbox               D  docsAvailsByHour = {1=[Adrien, Andy], 2=[Andy], 3=[Adrien, Andy], 4=[Aaron, Andy], 5=[Aaron, Adrien, Andy], 6=[Aaron], 7=[Aaron], 8=[Matt, Aaron], 9=[Belda, Wyatt, Emma, Aaron], 10=[Matt, Belda, Wyatt, Emma, Aaron], 11=[Matt, Belda, Wyatt, Emma, Josh], 12=[Belda], 13=[Matt, Belda], 14=[Belda], 15=[Belda, Wyatt, Aaron], 16=[Belda, Wyatt, Aaron], 17=[Wyatt, Aaron], 18=[Aaron], 19=[Aaron], 20=[Aaron], 21=[Aaron], 22=[Aaron], 23=[Aaron], 24=[]}
+2023-10-05 13:02:50.555  2009-2009  sandboxlog              com.chrisprime.sandbox               D  closestDoctorsToGivenLocation(5, 5) - closest distance is 4.47213595499958, filtering doctors...
+2023-10-05 13:02:50.556  2009-2009  sandboxlog              com.chrisprime.sandbox               D  closestDoctorsToLoc5_5 = [Belda]
+2023-10-05 13:02:50.556  2009-2009  sandboxlog              com.chrisprime.sandbox               D  closestDoctorsToGivenLocation(99, 20) - closest distance is 20.024984394500787, filtering doctors...
+2023-10-05 13:02:50.556  2009-2009  sandboxlog              com.chrisprime.sandbox               D  closestDoctorsToLoc99_20 = [Emma]
+2023-10-05 13:02:50.556  2009-2009  sandboxlog              com.chrisprime.sandbox               D  doctorsServicingLocation(5, 5) with doctorLocationsAndServiceAreas {Matt=[I@afebc5c, Belda=[I@7026b65, Wyatt=[I@ddeb03a, Emma=[I@85ee4eb, Aaron=[I@2e94248, Josh=[I@b3358e1, Adrien=[I@8f79606, Andy=[I@fc4e4c7}
+2023-10-05 13:02:50.557  2009-2009  sandboxlog              com.chrisprime.sandbox               D  doctorsServicing5_5 = [Belda]
+2023-10-05 13:02:50.557  2009-2009  sandboxlog              com.chrisprime.sandbox               D  doctorsServicingLocation(50, 50) with doctorLocationsAndServiceAreas {Matt=[I@afebc5c, Belda=[I@7026b65, Wyatt=[I@ddeb03a, Emma=[I@85ee4eb, Aaron=[I@2e94248, Josh=[I@b3358e1, Adrien=[I@8f79606, Andy=[I@fc4e4c7}
+2023-10-05 13:02:50.557  2009-2009  sandboxlog              com.chrisprime.sandbox               D  doctorsServicing50_50 = [Aaron, Adrien]
+2023-10-05 13:02:50.564  2009-2009  sandboxlog              com.chrisprime.sandbox               D  findAndAddToExistingSimilarDoctorGroup(): adding otherDoctor 10 to group [7, 8]
+2023-10-05 13:02:50.576  2009-2009  sandboxlog              com.chrisprime.sandbox               D  similarDoctorsGrouped = [[1, 2], [3], [4, 5], [6], [7, 8, 10], [9], [11]]
+2023-10-05 13:02:50.578  2009-2009  sandboxlog              com.chrisprime.sandbox               D  nextGreatest([16, 17, 4, 3, 5, 2], count 6) is ==> [17, 5, 5, 5, 2, -1]
+2023-10-05 13:02:50.578  2009-2009  sandboxlog              com.chrisprime.sandbox               D  nextGreatest([2, 3, 1, 9], count 4) is ==> [9, 9, 9, -1]
+2023-10-05 13:02:50.580  2009-2009  sandboxlog              com.chrisprime.sandbox               D  testRover1.controlRover("LMLMLMLMM") status: Rover(gridSizeX=5, gridSizeY=5, posX=1, posY=3, direction=NORTH, gridEdgesStopRover=true)
+2023-10-05 13:02:50.580  2009-2009  sandboxlog              com.chrisprime.sandbox               D  testRover2.controlRover("MMRMMRMRRM") status: Rover(gridSizeX=5, gridSizeY=5, posX=5, posY=1, direction=EAST, gridEdgesStopRover=true)
+2023-10-05 13:02:50.581  2009-2009  sandboxlog              com.chrisprime.sandbox               D  combinedLineSegmentsTest1: combineLineSegments([[16, 18], [6, 8], [2, 10], [20, 26], [5, 14], [25, 30], [21, 24], ]) = [[2, 14], [16, 18], [20, 30], ]
+2023-10-05 13:02:50.584  2009-2009  sandboxlog              com.chrisprime.sandbox               D  boggledBoardTest1: boggle([[a, b, c], [d, e, f], [g, h, i], ], [bad, bed, dab, head, dad, had]) = [bad, bed, dab, head, dad, had]
+2023-10-05 13:02:50.608  2009-2009  sandboxlog              com.chrisprime.sandbox               D  largestPalindrome(abczyx) = a
+2023-10-05 13:02:50.608  2009-2009  sandboxlog              com.chrisprime.sandbox               D  largestPalindrome(bbaac) = abcba
+2023-10-05 13:02:50.609  2009-2009  sandboxlog              com.chrisprime.sandbox               D  largestPalindrome(aabbcc) = cbaabc
+2023-10-05 13:02:50.641  2009-2009  sandboxlog              com.chrisprime.sandbox               D  largestPalindrome(bbbbbaac) = abbbbba
